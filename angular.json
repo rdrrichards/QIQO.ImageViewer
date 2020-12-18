@@ -26,7 +26,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/openseadragon/build/openseadragon/openseadragon.min.js"
+            ],
+            "allowedCommonJsDependencies": [
+              "openseadragon"
+            ]
           },
           "configurations": {
             "production": {
